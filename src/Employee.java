@@ -4,7 +4,8 @@ public class Employee {
     private double zarplata;
     private static int idGen = 1;
     private int id;
-//гетеры
+
+    //гетеры
     public String getFio() {
         return fio;
     }
@@ -20,7 +21,8 @@ public class Employee {
     public double getZarplata() {
         return zarplata;
     }
-//сетеры
+
+    //сетеры
     public void setOtdel(int otdel) {
         this.otdel = otdel;
     }
@@ -28,8 +30,9 @@ public class Employee {
     public void setZarplata(double zarplata) {
         this.zarplata = zarplata;
     }
-//конструктор
-    public Employee(String fio, int otdel,  double zarplata) {
+
+    //конструктор
+    public Employee(String fio, int otdel, double zarplata) {
         this.fio = fio;
         this.otdel = otdel;
         this.zarplata = zarplata;
@@ -41,6 +44,6 @@ public class Employee {
         return "fio='" + fio + '\'' +
                 ", otdel=" + otdel +
                 ", zarplata=" + zarplata +
-                ", id=" + id ;
+                ", id=" + id;
     }
 }

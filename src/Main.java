@@ -61,9 +61,10 @@ public class Main {
         return sum;
     }
 
-public static double srSum(){
-        return sum()/ employee.length;
-}
+    public static double srSum() {
+        return sum() / employee.length;
+    }
+
     public static void printSotr() {
         System.out.println("сотрудники: ");
         for (int i = 0; i < employee.length; i++) {
